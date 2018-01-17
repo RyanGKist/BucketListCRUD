@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5821A599200E9FB900AF85CE /* AddItemTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821A598200E9FB900AF85CE /* AddItemTableVC.swift */; };
+		5821A59B200EA2E600AF85CE /* AddItemTableVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821A59A200EA2E600AF85CE /* AddItemTableVCDelegate.swift */; };
 		58AB6C8A200E9A37006DC9D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB6C89200E9A37006DC9D6 /* AppDelegate.swift */; };
-		58AB6C8C200E9A37006DC9D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB6C8B200E9A37006DC9D6 /* ViewController.swift */; };
 		58AB6C8F200E9A37006DC9D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AB6C8D200E9A37006DC9D6 /* Main.storyboard */; };
 		58AB6C91200E9A37006DC9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AB6C90200E9A37006DC9D6 /* Assets.xcassets */; };
 		58AB6C94200E9A37006DC9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AB6C92200E9A37006DC9D6 /* LaunchScreen.storyboard */; };
+		58AB6C9C200E9A6E006DC9D6 /* BucketListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AB6C9B200E9A6E006DC9D6 /* BucketListTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5821A598200E9FB900AF85CE /* AddItemTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableVC.swift; sourceTree = "<group>"; };
+		5821A59A200EA2E600AF85CE /* AddItemTableVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableVCDelegate.swift; sourceTree = "<group>"; };
 		58AB6C86200E9A37006DC9D6 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AB6C89200E9A37006DC9D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58AB6C8B200E9A37006DC9D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58AB6C8E200E9A37006DC9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58AB6C90200E9A37006DC9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58AB6C93200E9A37006DC9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58AB6C95200E9A37006DC9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AB6C9B200E9A6E006DC9D6 /* BucketListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				58AB6C89200E9A37006DC9D6 /* AppDelegate.swift */,
-				58AB6C8B200E9A37006DC9D6 /* ViewController.swift */,
+				5821A59A200EA2E600AF85CE /* AddItemTableVCDelegate.swift */,
 				58AB6C8D200E9A37006DC9D6 /* Main.storyboard */,
+				5821A598200E9FB900AF85CE /* AddItemTableVC.swift */,
+				58AB6C9B200E9A6E006DC9D6 /* BucketListTableVC.swift */,
 				58AB6C90200E9A37006DC9D6 /* Assets.xcassets */,
 				58AB6C92200E9A37006DC9D6 /* LaunchScreen.storyboard */,
 				58AB6C95200E9A37006DC9D6 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58AB6C8C200E9A37006DC9D6 /* ViewController.swift in Sources */,
+				5821A599200E9FB900AF85CE /* AddItemTableVC.swift in Sources */,
 				58AB6C8A200E9A37006DC9D6 /* AppDelegate.swift in Sources */,
+				58AB6C9C200E9A6E006DC9D6 /* BucketListTableVC.swift in Sources */,
+				5821A59B200EA2E600AF85CE /* AddItemTableVCDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
